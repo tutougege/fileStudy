@@ -8,6 +8,10 @@ import java.io.IOException;
  * @author liwei
  * @create 2022-03-29-20:39
  **/
+/*
+lambda表达式:
+    (参数列表)->{方法体};
+ */
 public class FileIODemo {
     public static void main(String[] args) throws IOException {
         File file = new File("fos.txt");//连接文档
