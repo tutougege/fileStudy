@@ -8,6 +8,7 @@ public class ThreadDemo  {
         Thread t = new Thread();
         Thread t1 = new Thread(()->{
             //Runnable
+            //lambda表达式
             System.out.println("t1 start");
             synchronized (t){
                 try {
